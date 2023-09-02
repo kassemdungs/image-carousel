@@ -1,0 +1,66 @@
+body{
+    background-color: wheat;
+   /* width: 50%; */
+   align-items: center;
+   margin: 0;
+   font-size: 2rem;
+}
+
+/*.main-container{
+    display: grid;
+    grid-template-columns: 95%;
+    row-gap: 10px; 
+    width: 50%;
+    justify-content: center;
+    margin: 0 30%;
+    border: 1px solid gold;
+} */
+
+.main-container{
+    display: flex;
+    flex-direction: column; 
+   /* width: 50%; */
+    justify-content: center;
+    margin: 0 30%;
+    padding: 20px;
+    border: 1px solid gold;
+    box-shadow: 20px;
+} 
+
+.cont-1{
+    border: none;
+}
+
+/*.cont-2{
+border: 1px solid gray;    
+}*/
+    
+
+.cont-3{
+    border: 1px solid gold;
+    padding: 10px;
+}
+
+img{
+    height: 400%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#itel{
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+ul{
+   /* this remove the bullet points */
+   list-style-type: none;
+  /* this remove the extra space at the beginning of each list item */
+  margin: 0;
+  padding: 0;
+}
+
+span{
+   /* this makes the font bold */
+   font-weight: bold;
+}
