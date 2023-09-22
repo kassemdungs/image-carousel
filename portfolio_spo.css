@@ -1,0 +1,113 @@
+/* you can always go to colourhunt.co for good color combinations */
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Nisconne', cursive;
+    font-family: 'Pacifico', cursive; */
+}
+
+#navbar{
+    display: flex;
+    gap: 10vw;
+    justify-content: flex-end;
+    padding: 5vw;
+}
+
+#navbar a{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#header{
+    background-color: #75C2F6;
+    padding: 5vw 0;
+}
+
+.bodie{
+    background-color: #e7edf1;
+    padding: 5vw 0;
+    text-align: center;
+    align-content: center;
+}
+
+h1{
+    font-size: 8vw;
+    font-family: 'pacifico',cursive;
+}
+
+h2{
+    text-align: center;
+}
+
+.web{
+    font-size: 3rem;
+}
+
+h2,h3 a{
+    color: #75C2F6;
+    margin-top: 5vw;
+}
+
+img{
+    width: 15vw;
+}
+
+.pic{
+    float: right;
+    padding: 2vw 2.2vw;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    bottom: 17vw;
+    right: 11vw;
+}
+
+.about{
+    width: 50%;
+    margin: auto;
+    margin-top: 2vw;
+}
+
+h3{
+    color: #0b81cf;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 3vw;
+}
+
+h4{
+    color: #064f80;
+}
+
+.get{
+    padding: 1.5vw o;
+    background-color: #0b81cf;
+    color: white;
+     /* this code makes the footer fixed at the buttom of the page */
+    /* position: fixed; */
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+div{
+    padding-bottom: 1.5vw;
+}
+
+hr{
+    width: 50%;
+    border: 2px solid red;
+}
+
+sup{
+    font-size: 0.5vw;
+}

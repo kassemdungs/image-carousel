@@ -1,66 +1,68 @@
 body{
-    background-color: wheat;
+    background-color: white;
    /* width: 50%; */
-   align-items: center;
-   margin: 0;
-   font-size: 2rem;
+    align-items: center;
+    margin: 5;
+    font-size: 2.2rem;
 }
 
 /*.main-container{
     display: grid;
     grid-template-columns: 95%;
-    row-gap: 10px; 
+    rotate: 10px;
     width: 50%;
     justify-content: center;
-    margin: 0 30%;
-    border: 1px solid gold;
-} */
+    margin: 5.10%;
+    border: 1px solid grey;
+    box-shadow: 20px;
+}*/
 
 .main-container{
-    display: flex;
-    flex-direction: column; 
+    display: grid;
+    flex-direction: column;
+    gap: 10px;
    /* width: 50%; */
     justify-content: center;
-    margin: 0 30%;
-    padding: 20px;
-    border: 1px solid gold;
-    box-shadow: 20px;
-} 
+    margin: 5 10%;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 5px gray;
+}
 
 .cont-1{
     border: none;
 }
 
-/*.cont-2{
-border: 1px solid gray;    
-}*/
-    
+/* .cont-2{
+    border: 2px solid gray;
+} */
 
 .cont-3{
-    border: 1px solid gold;
+    border: 2px solid;
     padding: 10px;
 }
 
 img{
-    height: 400%;
-    width: 100%;
-    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    
 }
 
-#itel{
-    font-style: italic;
-    font-size: 1.2rem;
+.lorem{
+    border: 2px solid;
+    margin: 5px;
 }
 
 ul{
-   /* this remove the bullet points */
-   list-style-type: none;
-  /* this remove the extra space at the beginning of each list item */
-  margin: 0;
-  padding: 0;
+    /* the removes the bullet points; */
+    list-style-type:none;
+    /* the removes the extra space at the beginning of each list item */
+    margin: 5;
+    padding: 6;
 }
 
 span{
-   /* this makes the font bold */
+   /* the makes the font bold */
    font-weight: bold;
 }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kassem.css">
+</head>
+<body>
+    <div id="intro">
+        <h3 id="codeplateau">code<span id="span-in">plateau</span></h3>
+        <p>Enrol with us, improve on your tech skill</p>
+        <img src="./codeplateau-logo.jpg.jpg" alt="">
+    </div>
+
+    <div id="theform">
+        <form name="myform" action="/action_page.php"
+        onsubmit="return validateform()"method="post">
+        <label for="1name">first name</label>
+        <input type="text" id="fname"required>
+        <br>
+        <label for="lname">last name:</label>
+        <input type="text" name="lname" id="1name">
+        <br>
+        <label for="emailid">Email addres:</label>
+        <input type="text" name="emailid" id="emailid">
+        <br>
+        <label for="pword">password (7 or more characters):</label>
+        <input type="text" name="pword" id="pword">
+        <br>
+        <label for="confirm-pword">confirm your password:</label>
+        <input type="text" name="confirm-pword" id="comfirm-pword">
+    </form>
+
+    <p>By clicking join now, you agree to code plateau's <span id="bolder">User Agreement,
+        public policy,</span> and <span id="bolder">cookie policy
+    </span></p>
+
+    <button id="join" type="button" onclick="validateform()">Join now</button>
+    <p>or</p>
+    <button id="continue">continue with GitHub</button>
+    <p>Already subscribed? <span id="signin">Sign in</span></p>
+</div>
+<p>code plateau cooperation &copy; 2023</p>
+
+<script src="./kassem.js"></script>
+    
+</body>
+</html>
